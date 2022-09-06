@@ -1,0 +1,53 @@
+!! Perl Extensions
+URxvt.perl-ext-common:default,matcher,selection-to-clipboard,tabbed,-confirm-paste,-tabbed
+
+!! Settings
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.url-launcher: firefox-nightly
+Urxvt.underlineURLs = true
+URxvt.urlButton = 1
+
+URxvt.font:xft:Monospace:pixelsize=14
+URxvt.boldfont:xft:Monospace-Bold:pixelsize=14
+
+urxvt*transparent: true
+urxvt*shading: 22
+
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt*letterSpace: -1
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxt.scrollStyle: rxvt
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgenOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+!! Color Scheme
+*.foreground: #f1efef
+*.background: #000000
+*.cursorColor: #f1efef
+*.color0: #f1efef
+*.color8: #7b8b99
+*.color1: #df2683
+*.color9: #df2683
+*.color2: #13868c
+*.color10: #13868c
+*.color3: #fcfcdf
+*.color11: #fcfcdf
+*.color4: #1a86b9
+*.color12: #1a86b9
+*.color5: #bc7df2
+*.color13: #bc7df2
+*.color6: #7cc7f6
+*.color14:#7cc7d6
+*.color7: #4a4b4b
+*.color15: #dcd7d7
+
+
+
